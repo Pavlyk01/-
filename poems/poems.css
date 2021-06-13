@@ -1,0 +1,410 @@
+.conteiner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 18px;
+}
+
+.origami-wrapper {
+  margin: 0 auto;
+}
+
+.main-poems {
+  margin-top: 70px;
+}
+
+.main-caetoons {
+  margin-top: 70px;
+  display: flex;
+}
+
+.poems-act {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+  font-size: 19px;
+  color: #000;
+}
+
+.poems-act {
+  margin: 0 15px;
+}
+
+.poems-act a::before {
+  content: "";
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: rgb(108, 25, 123);
+  transition: 0.5s;
+}
+.poems-act a:hover {
+  color: rgb(37, 8, 43);
+  transition: 0.3s;
+}
+.poems-act a:hover:before {
+  color: rgb(108, 25, 123);
+  width: 100%;
+  left: 0;
+}
+
+.poems-main h2 {
+  font-size: 27px;
+  display: flex;
+  justify-content: center;
+}
+
+.poems-submain h4 {
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-poems {
+  display: flex;
+  margin: 35px 0;
+}
+
+.content-poems {
+  display: flex;
+  margin: 35px 0;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content-poems .content-poems-one,
+.content-poems .content-poems-too {
+  max-width: 360px;
+  min-width: 300px;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.poems-audio {
+  margin: 10px 0 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  padding: 0 7px;
+}
+
+.cartoon-img-logo {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/cat/cartoon/mashamedved-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.cartoon-img-logo-vinks {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/cat/cartoon/vinks.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.cartoon-img-logo-nu-pogodi {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/cat/cartoon/nu-pogodi.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.cartoon-img-logo-smeshariki {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/cat/cartoon/smeshariki.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.cartoon-img-logo-mimimishki {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/cat/cartoon/mimimishki.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.cartoon-img-logo-fiksiki {
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/cat/cartoon/fiksiki.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.instruction img {
+  margin: 0 auto;
+  align-items: center;
+  align-content: center;
+}
+
+.cartoon-header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.cartoon-main-logo {
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.cartoon-main-logo-h2 {
+  color: purple;
+  padding: 7px;
+  border: 3px solid purple;
+  border-radius: 20px;
+}
+
+.cartoon-info .cartoon-list {
+  height: 200px;
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.cartoon-info .cartoon-list li span,
+p span {
+  font-weight: 700;
+  color: rgb(108, 25, 123);
+}
+
+.cartoon-content {
+  display: flex;
+  justify-content: center;
+}
+
+.cartoon-subdeskr-header {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.element-animation {
+  opacity: 0;
+  transform: translateX(-50%) scale(0.2);
+}
+
+.element-animation.element-show {
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateX(0px) scale(1);
+}
+
+.cartoon-subdeskr p {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px 30px 15px 30px;
+}
+
+.cartoon-subdeskr {
+  padding-bottom: 30px;
+}
+
+.otvet {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(88, 16, 111);
+  transition: 1s;
+  border-top: 2px solid rgb(88, 16, 111);
+  padding: 7px 20px;
+  cursor: pointer;
+}
+
+footer {
+  background: #b597b6;
+  color: #6d0473;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+footer .footer-forum {
+  margin: 25px 0;
+}
+footer .footer-forum h3 {
+  margin: 10px 0;
+}
+footer .footer-forum .footer-forum-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+footer .footer-forum .footer-forum-img a {
+  z-index: default;
+}
+footer .footer-logo {
+  font-size: 20px;
+  margin: auto 0;
+}
+footer .footer-logo a {
+  color: #6d0473;
+}
+footer .footer_mail {
+  margin: auto 0;
+  padding: 20px 0 7px 0;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.178);
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+footer .footer_mail_popup_link {
+  color: #6d0473;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(47, 38, 49, 0.484);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.5s ease 0.5s;
+  -o-transition: all 0.5s ease 0.5s;
+  transition: all 0.5s ease 0.5s;
+}
+.popup:target {
+  opacity: 1;
+  visibility: visible;
+  z-index: 99;
+}
+.popup:target .popup__content {
+  -webkit-transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
+  transform: perspective(600px) translate(0px, 0%) rotateX(0deg);
+  opacity: 1;
+}
+.popup__area {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.popup__body {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+.popup__content {
+  background: #fff;
+  color: #000;
+  max-width: 800px;
+  padding: 30px;
+  position: relative;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+  opacity: 0;
+  -webkit-transform: perspective(600px) translate(0px, 100%) rotateX(50deg);
+  transform: perspective(600px) translate(0px, 100%) rotateX(50deg);
+  border-radius: 20px;
+}
+.popup__close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+.popup__title {
+  font-size: 20px;
+  padding: 0px 0px 1em 0px;
+}
+.popup__text {
+  font-size: 40px;
+  padding: 0px 0px 1em 0px;
+}
+input[type="text"] {
+  width: 100%;
+  resize: vertical;
+  padding: 15px;
+  border-radius: 15px;
+  border: 0;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  max-height: 150px;
+  margin: 7px 0;
+  border: 1px solid #a36aa373;
+  outline: 1px #a36aa373;
+}
+.footer__btn {
+  background-color: #753f85;
+  border: none;
+  color: white;
+  padding: 10px 21px;
+  border-radius: 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline: 1px #a36aa373;
+}
+textarea {
+  width: 100%;
+  resize: vertical;
+  padding: 15px;
+  border-radius: 15px;
+  border: 0;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.06);
+  height: 150px;
+  border: 1px solid #a36aa373;
+  outline: 1px #a36aa373;
+  resize: none;
+}
